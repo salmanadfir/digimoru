@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mulish:ital,wght@0,300;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.atas {
+    padding: 5px 0;
+    background-color: #3282b8;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header img {
+    float: left;
+    width: 180px;
+    height: auto;
+    margin-top: 10px;
+    padding:5px 0;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding:25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: #3282b8;
+    color: #fff;
+}
+
+.active {
+    background-color: #3282b8;
+    color: #fff;
+}
+
+.banner {
+    height: 75vh;
+    background-image: url('../image/academy.jpg');
+    background-size: cover;
+    background-position: 0, -200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.banner h2 {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 1px solid #fff;
+}
+
+.banner p {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+section {
+    padding:50px 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(245, 176, 176, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #cce7f8;
+}
+
+.about h2 {
+    text-align: center;
+    padding:20px 0;
+    color: #3282b8;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.featured {
+    width: 280px;
+    height: 220px;
+    padding: 10px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 280px;
+    height: 260px;
+    padding: 10px;
+    margin-right: 90px;
+    border-radius: 60%;
+    margin-bottom: 20px;
+}
+
+.class h2 {
+    text-align: center;
+    padding:20px 0;
+    color: #3282b8;
+    margin-bottom: 20px;
+}
+
+.class p {
+    color: #333;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.contact h2 {
+    text-align: center;
+    padding:20px 0;
+    color: #3282b8;
+    margin-bottom: 20px;
+}
+
+.profile td {
+    margin-right: -50px;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+.profile {
+    table-layout: auto;
+    font-family: sans-serif;
+    object-position: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.profile img {
+    width: 180px;
+    border: 4px solid #575D63;
+    object-position: center;
+    margin-right: 80px;
+}
+
+.featured-image {
+    width: 400px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #383e56;
+    color: #eaeaea;
+    text-align: center;
+    font-size: 14px;
+}
